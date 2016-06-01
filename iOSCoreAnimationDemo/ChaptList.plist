@@ -7,7 +7,7 @@
 			<key>viewControllerName</key>
 			<string>ViewController01</string>
 			<key>title</key>
-			<string>使用图层</string>
+			<string>图层树</string>
 		</dict>
 	</array>
 	<array>
@@ -15,7 +15,7 @@
 			<key>viewControllerName</key>
 			<string>ViewController02</string>
 			<key>title</key>
-			<string>测试</string>
+			<string>寄宿图</string>
 		</dict>
 	</array>
 </array>

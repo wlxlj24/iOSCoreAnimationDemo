@@ -10,28 +10,45 @@
 
 @interface ViewController02 ()
 
+@property (nonatomic,readwrite,strong) UIView *layerView;
+
 @end
 
 @implementation ViewController02
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+	
+	self.layerView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 200, 200)];
+	self.layerView.center = self.view.center;
+	self.layerView.backgroundColor = [UIColor redColor];
+	[self.view addSubview:self.layerView];
+	
+	//添加蓝色图层
+	CALayer *blueLayer = [CALayer layer];
+	blueLayer.frame = CGRectMake(50, 50, 100, 100);
+	blueLayer.backgroundColor = [UIColor blueColor].CGColor;
+	//CGImage属于CoreFoundation，并不是Cocoa框架类，需使用__bridge桥接
+	UIImage *image = [UIImage imageNamed:@"lazySheep"];
+	blueLayer.contents = (__bridge id _Nullable)(image.CGImage);
+	//contentsGravity对应于UIView的contentMode属性，用于调节图片的显示细节
+//	blueLayer.contentsGravity = kCAGravityResizeAspect;
+	
+	//CGImage没有拉伸的概念
+	//“当我们使用UIImage类去读取我们的图片的时候，他读取了高质量的Retina版本的图片。但是当我们用CGImage来设置我们的图层的内容时，拉伸这个因素在转换的时候就丢失了。不过我们可以通过手动设置contentsScale来修复这个问题”
+	blueLayer.contentsGravity = kCAGravityCenter;
+//	blueLayer.contentsScale = image.scale;
+	
+	//手动设置contentsScale，适配Retina屏幕
+	blueLayer.contentsScale = [UIScreen mainScreen].scale;
+	
+	[self.layerView.layer addSublayer:blueLayer];
+	
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end
