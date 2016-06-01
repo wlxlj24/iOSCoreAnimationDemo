@@ -15,13 +15,25 @@
 			<key>viewControllerName</key>
 			<string>ViewController02</string>
 			<key>title</key>
-			<string>寄宿图-contents属性</string>
+			<string>寄宿图-属性</string>
 		</dict>
 		<dict>
 			<key>viewControllerName</key>
 			<string>ViewController03</string>
 			<key>title</key>
-			<string>拼合图</string>
+			<string>使用contentsRect拼合图片</string>
+		</dict>
+		<dict>
+			<key>viewControllerName</key>
+			<string>ViewController04</string>
+			<key>title</key>
+			<string>使用contentsCenter拉伸图片</string>
+		</dict>
+		<dict>
+			<key>viewControllerName</key>
+			<string>ViewController05</string>
+			<key>title</key>
+			<string>实现CALayerDelegate来绘制图层</string>
 		</dict>
 	</array>
 </array>

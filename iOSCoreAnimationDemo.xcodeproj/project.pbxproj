@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		960654111CFEE152000B3ECE /* ViewController04.m in Sources */ = {isa = PBXBuildFile; fileRef = 9606540F1CFEE152000B3ECE /* ViewController04.m */; };
+		960654121CFEE152000B3ECE /* ViewController04.xib in Resources */ = {isa = PBXBuildFile; fileRef = 960654101CFEE152000B3ECE /* ViewController04.xib */; };
+		960654151CFEE469000B3ECE /* ViewController05.m in Sources */ = {isa = PBXBuildFile; fileRef = 960654141CFEE469000B3ECE /* ViewController05.m */; };
 		9625ECDA1CFE72F400F10793 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9625ECD91CFE72F400F10793 /* main.m */; };
 		9625ECDD1CFE72F400F10793 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9625ECDC1CFE72F400F10793 /* AppDelegate.m */; };
 		9625ECE31CFE72F400F10793 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9625ECE11CFE72F400F10793 /* Main.storyboard */; };
@@ -50,6 +53,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9606540E1CFEE152000B3ECE /* ViewController04.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController04.h; sourceTree = "<group>"; };
+		9606540F1CFEE152000B3ECE /* ViewController04.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController04.m; sourceTree = "<group>"; };
+		960654101CFEE152000B3ECE /* ViewController04.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController04.xib; sourceTree = "<group>"; };
+		960654131CFEE469000B3ECE /* ViewController05.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController05.h; sourceTree = "<group>"; };
+		960654141CFEE469000B3ECE /* ViewController05.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController05.m; sourceTree = "<group>"; };
 		9625ECD51CFE72F400F10793 /* iOSCoreAnimationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSCoreAnimationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9625ECD91CFE72F400F10793 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9625ECDB1CFE72F400F10793 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -216,6 +224,11 @@
 				9625ED1B1CFE7FDA00F10793 /* ViewController02.m */,
 				9625ED4A1CFEA92800F10793 /* ViewController03.h */,
 				9625ED4B1CFEA92800F10793 /* ViewController03.m */,
+				9606540E1CFEE152000B3ECE /* ViewController04.h */,
+				9606540F1CFEE152000B3ECE /* ViewController04.m */,
+				960654101CFEE152000B3ECE /* ViewController04.xib */,
+				960654131CFEE469000B3ECE /* ViewController05.h */,
+				960654141CFEE469000B3ECE /* ViewController05.m */,
 			);
 			name = Chapter02;
 			sourceTree = "<group>";
@@ -358,6 +371,7 @@
 			files = (
 				9625ECE81CFE72F400F10793 /* LaunchScreen.storyboard in Resources */,
 				9625ED131CFE75ED00F10793 /* ChaptList.plist in Resources */,
+				960654121CFEE152000B3ECE /* ViewController04.xib in Resources */,
 				9625ECE51CFE72F400F10793 /* Assets.xcassets in Resources */,
 				9625ED3C1CFE874C00F10793 /* Info.plist in Resources */,
 				9625ECE31CFE72F400F10793 /* Main.storyboard in Resources */,
@@ -388,8 +402,10 @@
 				9625ED441CFE874C00F10793 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
 				9625ED1C1CFE7FDA00F10793 /* ViewController02.m in Sources */,
 				9625ED421CFE874C00F10793 /* MASViewConstraint.m in Sources */,
+				960654151CFEE469000B3ECE /* ViewController05.m in Sources */,
 				9625ED0D1CFE751D00F10793 /* tableViewController.m in Sources */,
 				9625ED191CFE7FB900F10793 /* ViewController01.m in Sources */,
+				960654111CFEE152000B3ECE /* ViewController04.m in Sources */,
 				9625ECDD1CFE72F400F10793 /* AppDelegate.m in Sources */,
 				9625ED451CFE874C00F10793 /* View+MASAdditions.m in Sources */,
 				9625ED3D1CFE874C00F10793 /* MASCompositeConstraint.m in Sources */,
