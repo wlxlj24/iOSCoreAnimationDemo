@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ViewController01.h
 //  iOSCoreAnimationDemo
 //
 //  Created by TailC on 16/6/1.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface ViewController01 : UIViewController
 
 @end
-
