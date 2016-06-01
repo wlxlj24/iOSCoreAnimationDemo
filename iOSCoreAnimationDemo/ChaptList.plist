@@ -15,7 +15,13 @@
 			<key>viewControllerName</key>
 			<string>ViewController02</string>
 			<key>title</key>
-			<string>寄宿图</string>
+			<string>寄宿图-contents属性</string>
+		</dict>
+		<dict>
+			<key>viewControllerName</key>
+			<string>ViewController03</string>
+			<key>title</key>
+			<string>拼合图</string>
 		</dict>
 	</array>
 </array>
