@@ -24,9 +24,7 @@
 		UIView *v = [UIView new];
 		[self.view addSubview:v];
 		[v mas_makeConstraints:^(MASConstraintMaker *make) {
-//			make.center.mas_equalTo(v.superview.center);
-			make.centerX.mas_equalTo(v.superview.mas_centerX);
-			make.centerY.mas_equalTo(v.superview.mas_centerY);
+			make.center.mas_equalTo(v.superview);
 			make.size.mas_equalTo(CGSizeMake(100, 100));
 		}];
 		v.backgroundColor = [UIColor greenColor];

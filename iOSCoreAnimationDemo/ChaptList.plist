@@ -49,6 +49,18 @@
 			<key>title</key>
 			<string>使用zPosition改变图层显示顺序</string>
 		</dict>
+		<dict>
+			<key>viewControllerName</key>
+			<string>ViewController08</string>
+			<key>title</key>
+			<string>使用containsPoint判断被点击的图层</string>
+		</dict>
+		<dict>
+			<key>viewControllerName</key>
+			<string>ViewController09</string>
+			<key>title</key>
+			<string>使用hitTest判断被点击的图层</string>
+		</dict>
 	</array>
 </array>
 </plist>

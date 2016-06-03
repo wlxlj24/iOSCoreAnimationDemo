@@ -79,4 +79,10 @@
 	
 }
 
+- (void)dealloc
+{
+	self.blueLayer.delegate = nil;
+	self.orrangeLayer.delegate = nil;
+}
+
 @end
