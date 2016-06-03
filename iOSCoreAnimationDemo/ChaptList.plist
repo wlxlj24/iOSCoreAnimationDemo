@@ -69,6 +69,12 @@
 			<key>title</key>
 			<string>使用cornerRadius实现圆角</string>
 		</dict>
+		<dict>
+			<key>viewControllerName</key>
+			<string>ViewController11</string>
+			<key>title</key>
+			<string>图层边框</string>
+		</dict>
 	</array>
 </array>
 </plist>
