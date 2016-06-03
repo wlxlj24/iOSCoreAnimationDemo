@@ -62,5 +62,13 @@
 			<string>使用hitTest判断被点击的图层</string>
 		</dict>
 	</array>
+	<array>
+		<dict>
+			<key>viewControllerName</key>
+			<string>ViewController10</string>
+			<key>title</key>
+			<string>使用cornerRadius实现圆角</string>
+		</dict>
+	</array>
 </array>
 </plist>
