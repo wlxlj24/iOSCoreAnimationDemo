@@ -33,7 +33,15 @@
 			<key>viewControllerName</key>
 			<string>ViewController05</string>
 			<key>title</key>
-			<string>实现CALayerDelegate来绘制图层</string>
+			<string>实现CALayerDelegate绘制图层</string>
+		</dict>
+	</array>
+	<array>
+		<dict>
+			<key>viewControllerName</key>
+			<string>ViewController06</string>
+			<key>title</key>
+			<string>使用anchorPoint实现时钟</string>
 		</dict>
 	</array>
 </array>
