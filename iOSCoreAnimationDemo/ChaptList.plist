@@ -43,6 +43,12 @@
 			<key>title</key>
 			<string>使用anchorPoint实现时钟</string>
 		</dict>
+		<dict>
+			<key>viewControllerName</key>
+			<string>ViewController07</string>
+			<key>title</key>
+			<string>使用zPosition改变图层显示顺序</string>
+		</dict>
 	</array>
 </array>
 </plist>

@@ -34,6 +34,7 @@
 		9625ED451CFE874C00F10793 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9625ED381CFE874C00F10793 /* View+MASAdditions.m */; };
 		9625ED461CFE874C00F10793 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9625ED3B1CFE874C00F10793 /* ViewController+MASAdditions.m */; };
 		9625ED4C1CFEA92800F10793 /* ViewController03.m in Sources */ = {isa = PBXBuildFile; fileRef = 9625ED4B1CFEA92800F10793 /* ViewController03.m */; };
+		968EA4811D0118C600C4C35D /* ViewController07.m in Sources */ = {isa = PBXBuildFile; fileRef = 968EA4801D0118C600C4C35D /* ViewController07.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -110,6 +111,9 @@
 		9625ED3B1CFE874C00F10793 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
 		9625ED4A1CFEA92800F10793 /* ViewController03.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController03.h; sourceTree = "<group>"; };
 		9625ED4B1CFEA92800F10793 /* ViewController03.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController03.m; sourceTree = "<group>"; };
+		968EA47F1D0118C600C4C35D /* ViewController07.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController07.h; sourceTree = "<group>"; };
+		968EA4801D0118C600C4C35D /* ViewController07.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController07.m; sourceTree = "<group>"; };
+		968EA4821D0119CC00C4C35D /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +146,8 @@
 			children = (
 				960654171CFFC27D000B3ECE /* ViewController06.h */,
 				960654181CFFC27D000B3ECE /* ViewController06.m */,
+				968EA47F1D0118C600C4C35D /* ViewController07.h */,
+				968EA4801D0118C600C4C35D /* ViewController07.m */,
 			);
 			name = Chapter03;
 			sourceTree = "<group>";
@@ -189,6 +195,7 @@
 			isa = PBXGroup;
 			children = (
 				9625ECD91CFE72F400F10793 /* main.m */,
+				968EA4821D0119CC00C4C35D /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -427,6 +434,7 @@
 				9625ED431CFE874C00F10793 /* NSArray+MASAdditions.m in Sources */,
 				9625ED461CFE874C00F10793 /* ViewController+MASAdditions.m in Sources */,
 				960654191CFFC27D000B3ECE /* ViewController06.m in Sources */,
+				968EA4811D0118C600C4C35D /* ViewController07.m in Sources */,
 				9625ED3E1CFE874C00F10793 /* MASConstraint.m in Sources */,
 				9625ED401CFE874C00F10793 /* MASLayoutConstraint.m in Sources */,
 				9625ECDA1CFE72F400F10793 /* main.m in Sources */,
@@ -571,6 +579,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/TailCat/Coding/Demo/iOSCoreAnimaitonDemo/iOSCoreAnimationDemo/iOSCoreAnimationDemo/PrefixHeader.pch;
 				INFOPLIST_FILE = iOSCoreAnimationDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.TCBeta.iOSCoreAnimationDemo;
@@ -582,6 +592,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/TailCat/Coding/Demo/iOSCoreAnimaitonDemo/iOSCoreAnimationDemo/iOSCoreAnimationDemo/PrefixHeader.pch;
 				INFOPLIST_FILE = iOSCoreAnimationDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.TCBeta.iOSCoreAnimationDemo;
