@@ -119,6 +119,12 @@
 			<key>title</key>
 			<string>混合变换</string>
 		</dict>
+		<dict>
+			<key>viewControllerName</key>
+			<string>ViewController19</string>
+			<key>title</key>
+			<string>绕Y轴旋转图层</string>
+		</dict>
 	</array>
 </array>
 </plist>
