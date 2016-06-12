@@ -39,6 +39,7 @@
 		968EA4881D0124DE00C4C35D /* ViewController09.m in Sources */ = {isa = PBXBuildFile; fileRef = 968EA4871D0124DE00C4C35D /* ViewController09.m */; };
 		968EA5321D01853900C4C35D /* ViewController10.m in Sources */ = {isa = PBXBuildFile; fileRef = 968EA5311D01853900C4C35D /* ViewController10.m */; };
 		968EA5351D018ACC00C4C35D /* ViewController11.m in Sources */ = {isa = PBXBuildFile; fileRef = 968EA5341D018ACC00C4C35D /* ViewController11.m */; };
+		968EA5511D0CEF3500C4C35D /* ViewController12.m in Sources */ = {isa = PBXBuildFile; fileRef = 968EA5501D0CEF3500C4C35D /* ViewController12.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -126,6 +127,8 @@
 		968EA5311D01853900C4C35D /* ViewController10.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController10.m; sourceTree = "<group>"; };
 		968EA5331D018ACC00C4C35D /* ViewController11.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController11.h; sourceTree = "<group>"; };
 		968EA5341D018ACC00C4C35D /* ViewController11.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController11.m; sourceTree = "<group>"; };
+		968EA54F1D0CEF3500C4C35D /* ViewController12.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController12.h; sourceTree = "<group>"; };
+		968EA5501D0CEF3500C4C35D /* ViewController12.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController12.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -310,6 +313,8 @@
 				968EA5311D01853900C4C35D /* ViewController10.m */,
 				968EA5331D018ACC00C4C35D /* ViewController11.h */,
 				968EA5341D018ACC00C4C35D /* ViewController11.m */,
+				968EA54F1D0CEF3500C4C35D /* ViewController12.h */,
+				968EA5501D0CEF3500C4C35D /* ViewController12.m */,
 			);
 			name = Chapter04;
 			sourceTree = "<group>";
@@ -457,6 +462,7 @@
 				9625ECDD1CFE72F400F10793 /* AppDelegate.m in Sources */,
 				9625ED451CFE874C00F10793 /* View+MASAdditions.m in Sources */,
 				9625ED3D1CFE874C00F10793 /* MASCompositeConstraint.m in Sources */,
+				968EA5511D0CEF3500C4C35D /* ViewController12.m in Sources */,
 				9625ED411CFE874C00F10793 /* MASViewAttribute.m in Sources */,
 				9625ED3F1CFE874C00F10793 /* MASConstraintMaker.m in Sources */,
 				9625ED431CFE874C00F10793 /* NSArray+MASAdditions.m in Sources */,

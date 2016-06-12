@@ -75,6 +75,12 @@
 			<key>title</key>
 			<string>图层边框</string>
 		</dict>
+		<dict>
+			<key>viewControllerName</key>
+			<string>ViewController12</string>
+			<key>title</key>
+			<string>额外的视图解决阴影剪裁问题</string>
+		</dict>
 	</array>
 </array>
 </plist>
