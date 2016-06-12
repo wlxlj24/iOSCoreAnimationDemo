@@ -81,6 +81,18 @@
 			<key>title</key>
 			<string>额外的视图解决阴影剪裁问题</string>
 		</dict>
+		<dict>
+			<key>viewControllerName</key>
+			<string>ViewController13</string>
+			<key>title</key>
+			<string>不规则阴影</string>
+		</dict>
+		<dict>
+			<key>viewControllerName</key>
+			<string>ViewController14</string>
+			<key>title</key>
+			<string>图层蒙版</string>
+		</dict>
 	</array>
 </array>
 </plist>

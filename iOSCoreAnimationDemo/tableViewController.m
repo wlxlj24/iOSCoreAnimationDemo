@@ -57,7 +57,9 @@
 	NSDictionary *row = section[indexPath.row];
 	
 	cell.textLabel.text = [NSString stringWithFormat:@"%@",[row objectForKey:@"title"]];
-	cell.detailTextLabel.text = [NSString stringWithFormat:@"%@",[row objectForKey:@"viewControllerName"]];
+	NSString *name = [row objectForKey:@"viewControllerName"];
+	name = [name substringFromIndex:14];
+	cell.detailTextLabel.text = [NSString stringWithFormat:@"%@",name];
 	
     return cell;
 }
