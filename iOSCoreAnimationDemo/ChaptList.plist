@@ -93,6 +93,18 @@
 			<key>title</key>
 			<string>图层蒙版</string>
 		</dict>
+		<dict>
+			<key>viewControllerName</key>
+			<string>ViewController15</string>
+			<key>title</key>
+			<string>LCD时钟</string>
+		</dict>
+		<dict>
+			<key>viewControllerName</key>
+			<string>ViewController16</string>
+			<key>title</key>
+			<string>使用shouldRasterize解决组透明</string>
+		</dict>
 	</array>
 </array>
 </plist>
