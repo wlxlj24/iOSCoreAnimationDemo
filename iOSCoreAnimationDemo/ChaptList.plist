@@ -106,5 +106,19 @@
 			<string>使用shouldRasterize解决组透明</string>
 		</dict>
 	</array>
+	<array>
+		<dict>
+			<key>viewControllerName</key>
+			<string>ViewController17</string>
+			<key>title</key>
+			<string>affineTransform对图层旋转45°</string>
+		</dict>
+		<dict>
+			<key>viewControllerName</key>
+			<string>ViewController18</string>
+			<key>title</key>
+			<string>混合变换</string>
+		</dict>
+	</array>
 </array>
 </plist>

@@ -35,6 +35,8 @@
 		9625ED461CFE874C00F10793 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9625ED3B1CFE874C00F10793 /* ViewController+MASAdditions.m */; };
 		9625ED4C1CFEA92800F10793 /* ViewController03.m in Sources */ = {isa = PBXBuildFile; fileRef = 9625ED4B1CFEA92800F10793 /* ViewController03.m */; };
 		96483E4F1D0D3B6B004D258F /* ViewController16.m in Sources */ = {isa = PBXBuildFile; fileRef = 96483E4E1D0D3B6B004D258F /* ViewController16.m */; };
+		96483E971D0D58F7004D258F /* ViewController17.m in Sources */ = {isa = PBXBuildFile; fileRef = 96483E961D0D58F7004D258F /* ViewController17.m */; };
+		96483E9A1D0D5AC2004D258F /* ViewController18.m in Sources */ = {isa = PBXBuildFile; fileRef = 96483E991D0D5AC2004D258F /* ViewController18.m */; };
 		968EA4811D0118C600C4C35D /* ViewController07.m in Sources */ = {isa = PBXBuildFile; fileRef = 968EA4801D0118C600C4C35D /* ViewController07.m */; };
 		968EA4851D01242D00C4C35D /* ViewController08.m in Sources */ = {isa = PBXBuildFile; fileRef = 968EA4841D01242D00C4C35D /* ViewController08.m */; };
 		968EA4881D0124DE00C4C35D /* ViewController09.m in Sources */ = {isa = PBXBuildFile; fileRef = 968EA4871D0124DE00C4C35D /* ViewController09.m */; };
@@ -122,6 +124,10 @@
 		9625ED4B1CFEA92800F10793 /* ViewController03.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController03.m; sourceTree = "<group>"; };
 		96483E4D1D0D3B6B004D258F /* ViewController16.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController16.h; sourceTree = "<group>"; };
 		96483E4E1D0D3B6B004D258F /* ViewController16.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController16.m; sourceTree = "<group>"; };
+		96483E951D0D58F7004D258F /* ViewController17.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController17.h; sourceTree = "<group>"; };
+		96483E961D0D58F7004D258F /* ViewController17.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController17.m; sourceTree = "<group>"; };
+		96483E981D0D5AC2004D258F /* ViewController18.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController18.h; sourceTree = "<group>"; };
+		96483E991D0D5AC2004D258F /* ViewController18.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController18.m; sourceTree = "<group>"; };
 		968EA47F1D0118C600C4C35D /* ViewController07.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController07.h; sourceTree = "<group>"; };
 		968EA4801D0118C600C4C35D /* ViewController07.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController07.m; sourceTree = "<group>"; };
 		968EA4821D0119CC00C4C35D /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
@@ -168,7 +174,7 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		960654161CFFC24D000B3ECE /* Chapter03 */ = {
+		960654161CFFC24D000B3ECE /* Chapter03 图层几何学 */ = {
 			isa = PBXGroup;
 			children = (
 				960654171CFFC27D000B3ECE /* ViewController06.h */,
@@ -180,7 +186,7 @@
 				968EA4861D0124DE00C4C35D /* ViewController09.h */,
 				968EA4871D0124DE00C4C35D /* ViewController09.m */,
 			);
-			name = Chapter03;
+			name = "Chapter03 图层几何学";
 			sourceTree = "<group>";
 		};
 		9625ECCC1CFE72F400F10793 = {
@@ -206,11 +212,11 @@
 		9625ECD71CFE72F400F10793 /* iOSCoreAnimationDemo */ = {
 			isa = PBXGroup;
 			children = (
+				9625ED121CFE75ED00F10793 /* ChaptList.plist */,
 				9625ED211CFE874C00F10793 /* Masonry */,
 				9625ED0E1CFE752600F10793 /* Classes */,
 				9625ECDB1CFE72F400F10793 /* AppDelegate.h */,
 				9625ECDC1CFE72F400F10793 /* AppDelegate.m */,
-				9625ED121CFE75ED00F10793 /* ChaptList.plist */,
 				9625ED0B1CFE751D00F10793 /* tableViewController.h */,
 				9625ED0C1CFE751D00F10793 /* tableViewController.m */,
 				9625ECE11CFE72F400F10793 /* Main.storyboard */,
@@ -252,24 +258,25 @@
 		9625ED0E1CFE752600F10793 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				968EA52F1D01852B00C4C35D /* Chapter04 */,
-				960654161CFFC24D000B3ECE /* Chapter03 */,
-				9625ED201CFE866000F10793 /* Chapter02 */,
-				9625ED0F1CFE752E00F10793 /* Chapter01 */,
+				96483E941D0D5886004D258F /* Chapter05 变换 */,
+				968EA52F1D01852B00C4C35D /* Chapter04 视觉效果 */,
+				960654161CFFC24D000B3ECE /* Chapter03 图层几何学 */,
+				9625ED201CFE866000F10793 /* Chapter02 寄宿图 */,
+				9625ED0F1CFE752E00F10793 /* Chapter01 图层树 */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
 		};
-		9625ED0F1CFE752E00F10793 /* Chapter01 */ = {
+		9625ED0F1CFE752E00F10793 /* Chapter01 图层树 */ = {
 			isa = PBXGroup;
 			children = (
 				9625ED171CFE7FB900F10793 /* ViewController01.h */,
 				9625ED181CFE7FB900F10793 /* ViewController01.m */,
 			);
-			name = Chapter01;
+			name = "Chapter01 图层树";
 			sourceTree = "<group>";
 		};
-		9625ED201CFE866000F10793 /* Chapter02 */ = {
+		9625ED201CFE866000F10793 /* Chapter02 寄宿图 */ = {
 			isa = PBXGroup;
 			children = (
 				9625ED1A1CFE7FDA00F10793 /* ViewController02.h */,
@@ -282,7 +289,7 @@
 				960654131CFEE469000B3ECE /* ViewController05.h */,
 				960654141CFEE469000B3ECE /* ViewController05.m */,
 			);
-			name = Chapter02;
+			name = "Chapter02 寄宿图";
 			sourceTree = "<group>";
 		};
 		9625ED211CFE874C00F10793 /* Masonry */ = {
@@ -318,7 +325,18 @@
 			path = Masonry;
 			sourceTree = "<group>";
 		};
-		968EA52F1D01852B00C4C35D /* Chapter04 */ = {
+		96483E941D0D5886004D258F /* Chapter05 变换 */ = {
+			isa = PBXGroup;
+			children = (
+				96483E951D0D58F7004D258F /* ViewController17.h */,
+				96483E961D0D58F7004D258F /* ViewController17.m */,
+				96483E981D0D5AC2004D258F /* ViewController18.h */,
+				96483E991D0D5AC2004D258F /* ViewController18.m */,
+			);
+			name = "Chapter05 变换";
+			sourceTree = "<group>";
+		};
+		968EA52F1D01852B00C4C35D /* Chapter04 视觉效果 */ = {
 			isa = PBXGroup;
 			children = (
 				968EA5301D01853900C4C35D /* ViewController10.h */,
@@ -336,7 +354,7 @@
 				96483E4D1D0D3B6B004D258F /* ViewController16.h */,
 				96483E4E1D0D3B6B004D258F /* ViewController16.m */,
 			);
-			name = Chapter04;
+			name = "Chapter04 视觉效果";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -491,7 +509,9 @@
 				9625ED431CFE874C00F10793 /* NSArray+MASAdditions.m in Sources */,
 				968EA4881D0124DE00C4C35D /* ViewController09.m in Sources */,
 				968EA5351D018ACC00C4C35D /* ViewController11.m in Sources */,
+				96483E9A1D0D5AC2004D258F /* ViewController18.m in Sources */,
 				9625ED461CFE874C00F10793 /* ViewController+MASAdditions.m in Sources */,
+				96483E971D0D58F7004D258F /* ViewController17.m in Sources */,
 				968EA5321D01853900C4C35D /* ViewController10.m in Sources */,
 				968EA5541D0CF41E00C4C35D /* ViewController13.m in Sources */,
 				960654191CFFC27D000B3ECE /* ViewController06.m in Sources */,
