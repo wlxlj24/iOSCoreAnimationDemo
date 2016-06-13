@@ -125,6 +125,12 @@
 			<key>title</key>
 			<string>绕Y轴旋转图层</string>
 		</dict>
+		<dict>
+			<key>viewControllerName</key>
+			<string>ViewController20</string>
+			<key>title</key>
+			<string>透视效果</string>
+		</dict>
 	</array>
 </array>
 </plist>

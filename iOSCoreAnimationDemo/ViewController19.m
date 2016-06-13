@@ -33,7 +33,6 @@
 		CATransform3D tansform = CATransform3DMakeRotation(M_PI_4, 0, 1, 0);
 		var.layer.transform = tansform;
 		
-		
 		var;
 	});
 	
