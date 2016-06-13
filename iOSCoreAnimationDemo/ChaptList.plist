@@ -137,6 +137,18 @@
 			<key>title</key>
 			<string>sublayerTransform</string>
 		</dict>
+		<dict>
+			<key>viewControllerName</key>
+			<string>ViewController22</string>
+			<key>title</key>
+			<string>绕Z轴做相反的旋转变换</string>
+		</dict>
+		<dict>
+			<key>viewControllerName</key>
+			<string>ViewController23</string>
+			<key>title</key>
+			<string>绕Y轴做相反的旋转变换</string>
+		</dict>
 	</array>
 </array>
 </plist>
