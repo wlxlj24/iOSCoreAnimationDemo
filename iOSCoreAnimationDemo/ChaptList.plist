@@ -156,5 +156,13 @@
 			<string>创建一个正方体</string>
 		</dict>
 	</array>
+	<array>
+		<dict>
+			<key>viewControllerName</key>
+			<string>ViewController25</string>
+			<key>title</key>
+			<string>CAShapeLayer绘制火柴人</string>
+		</dict>
+	</array>
 </array>
 </plist>

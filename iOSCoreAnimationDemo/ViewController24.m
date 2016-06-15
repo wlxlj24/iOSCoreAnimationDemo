@@ -205,8 +205,7 @@
 	transform = CATransform3DRotate(transform, M_PI, 0, 1, 0);
 	[self addFace:self.squareView6 withTransform:transform];
 	
-	perspective = CATransform3DRotate(perspective, -M_PI_4, 1, 0, 0);
-	perspective = CATransform3DRotate(perspective, -M_PI_4, 0, 1, 0);
+	perspective = CATransform3DRotate(perspective, -M_PI_4, 1, 1, 0);
 	self.containView.layer.transform = perspective;
 	
 }
