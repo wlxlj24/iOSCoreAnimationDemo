@@ -42,6 +42,7 @@
 		96483F261D0E4763004D258F /* ViewController21.m in Sources */ = {isa = PBXBuildFile; fileRef = 96483F251D0E4763004D258F /* ViewController21.m */; };
 		965C2C6A1D0EB88C00D49CCF /* ViewController22.m in Sources */ = {isa = PBXBuildFile; fileRef = 965C2C691D0EB88C00D49CCF /* ViewController22.m */; };
 		965C2C6D1D0EBA2500D49CCF /* ViewController23.m in Sources */ = {isa = PBXBuildFile; fileRef = 965C2C6C1D0EBA2500D49CCF /* ViewController23.m */; };
+		965C2C701D0EBC3D00D49CCF /* ViewController24.m in Sources */ = {isa = PBXBuildFile; fileRef = 965C2C6F1D0EBC3D00D49CCF /* ViewController24.m */; };
 		968EA4811D0118C600C4C35D /* ViewController07.m in Sources */ = {isa = PBXBuildFile; fileRef = 968EA4801D0118C600C4C35D /* ViewController07.m */; };
 		968EA4851D01242D00C4C35D /* ViewController08.m in Sources */ = {isa = PBXBuildFile; fileRef = 968EA4841D01242D00C4C35D /* ViewController08.m */; };
 		968EA4881D0124DE00C4C35D /* ViewController09.m in Sources */ = {isa = PBXBuildFile; fileRef = 968EA4871D0124DE00C4C35D /* ViewController09.m */; };
@@ -143,6 +144,8 @@
 		965C2C691D0EB88C00D49CCF /* ViewController22.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController22.m; sourceTree = "<group>"; };
 		965C2C6B1D0EBA2500D49CCF /* ViewController23.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController23.h; sourceTree = "<group>"; };
 		965C2C6C1D0EBA2500D49CCF /* ViewController23.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController23.m; sourceTree = "<group>"; };
+		965C2C6E1D0EBC3D00D49CCF /* ViewController24.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController24.h; sourceTree = "<group>"; };
+		965C2C6F1D0EBC3D00D49CCF /* ViewController24.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController24.m; sourceTree = "<group>"; };
 		968EA47F1D0118C600C4C35D /* ViewController07.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController07.h; sourceTree = "<group>"; };
 		968EA4801D0118C600C4C35D /* ViewController07.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController07.m; sourceTree = "<group>"; };
 		968EA4821D0119CC00C4C35D /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
@@ -357,6 +360,8 @@
 				965C2C691D0EB88C00D49CCF /* ViewController22.m */,
 				965C2C6B1D0EBA2500D49CCF /* ViewController23.h */,
 				965C2C6C1D0EBA2500D49CCF /* ViewController23.m */,
+				965C2C6E1D0EBC3D00D49CCF /* ViewController24.h */,
+				965C2C6F1D0EBC3D00D49CCF /* ViewController24.m */,
 			);
 			name = "Chapter05 变换";
 			sourceTree = "<group>";
@@ -529,6 +534,7 @@
 				9625ECDD1CFE72F400F10793 /* AppDelegate.m in Sources */,
 				9625ED451CFE874C00F10793 /* View+MASAdditions.m in Sources */,
 				968EA55A1D0D246900C4C35D /* ViewController15.m in Sources */,
+				965C2C701D0EBC3D00D49CCF /* ViewController24.m in Sources */,
 				9625ED3D1CFE874C00F10793 /* MASCompositeConstraint.m in Sources */,
 				968EA5511D0CEF3500C4C35D /* ViewController12.m in Sources */,
 				9625ED411CFE874C00F10793 /* MASViewAttribute.m in Sources */,
