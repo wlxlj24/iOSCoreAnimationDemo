@@ -175,6 +175,12 @@
 			<key>title</key>
 			<string>CATextLayer实现UILabel</string>
 		</dict>
+		<dict>
+			<key>viewControllerName</key>
+			<string>ViewController28</string>
+			<key>title</key>
+			<string>NSAttributedString实现富文本</string>
+		</dict>
 	</array>
 </array>
 </plist>
