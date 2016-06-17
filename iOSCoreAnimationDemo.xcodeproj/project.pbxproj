@@ -52,6 +52,7 @@
 		968EA5541D0CF41E00C4C35D /* ViewController13.m in Sources */ = {isa = PBXBuildFile; fileRef = 968EA5531D0CF41E00C4C35D /* ViewController13.m */; };
 		968EA5571D0D02E500C4C35D /* ViewController14.m in Sources */ = {isa = PBXBuildFile; fileRef = 968EA5561D0D02E500C4C35D /* ViewController14.m */; };
 		968EA55A1D0D246900C4C35D /* ViewController15.m in Sources */ = {isa = PBXBuildFile; fileRef = 968EA5591D0D246900C4C35D /* ViewController15.m */; };
+		96A7B4501D1395D400C9FC62 /* ViewController26.m in Sources */ = {isa = PBXBuildFile; fileRef = 96A7B44F1D1395D400C9FC62 /* ViewController26.m */; };
 		96C1F17E1D10EF4200F5951C /* ViewController25.m in Sources */ = {isa = PBXBuildFile; fileRef = 96C1F17D1D10EF4200F5951C /* ViewController25.m */; };
 /* End PBXBuildFile section */
 
@@ -166,6 +167,8 @@
 		968EA5561D0D02E500C4C35D /* ViewController14.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController14.m; sourceTree = "<group>"; };
 		968EA5581D0D246900C4C35D /* ViewController15.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController15.h; sourceTree = "<group>"; };
 		968EA5591D0D246900C4C35D /* ViewController15.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController15.m; sourceTree = "<group>"; };
+		96A7B44E1D1395D400C9FC62 /* ViewController26.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController26.h; sourceTree = "<group>"; };
+		96A7B44F1D1395D400C9FC62 /* ViewController26.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController26.m; sourceTree = "<group>"; };
 		96C1F17C1D10EF4200F5951C /* ViewController25.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController25.h; sourceTree = "<group>"; };
 		96C1F17D1D10EF4200F5951C /* ViewController25.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController25.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -396,6 +399,8 @@
 			children = (
 				96C1F17C1D10EF4200F5951C /* ViewController25.h */,
 				96C1F17D1D10EF4200F5951C /* ViewController25.m */,
+				96A7B44E1D1395D400C9FC62 /* ViewController26.h */,
+				96A7B44F1D1395D400C9FC62 /* ViewController26.m */,
 			);
 			name = "Chapter06 专用图层";
 			sourceTree = "<group>";
@@ -564,6 +569,7 @@
 				96483F261D0E4763004D258F /* ViewController21.m in Sources */,
 				968EA5541D0CF41E00C4C35D /* ViewController13.m in Sources */,
 				960654191CFFC27D000B3ECE /* ViewController06.m in Sources */,
+				96A7B4501D1395D400C9FC62 /* ViewController26.m in Sources */,
 				968EA4851D01242D00C4C35D /* ViewController08.m in Sources */,
 				968EA4811D0118C600C4C35D /* ViewController07.m in Sources */,
 				96C1F17E1D10EF4200F5951C /* ViewController25.m in Sources */,

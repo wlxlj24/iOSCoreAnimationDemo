@@ -163,6 +163,12 @@
 			<key>title</key>
 			<string>CAShapeLayer绘制火柴人</string>
 		</dict>
+		<dict>
+			<key>viewControllerName</key>
+			<string>ViewController26</string>
+			<key>title</key>
+			<string>UIBezierPath绘制三个圆角的矩形</string>
+		</dict>
 	</array>
 </array>
 </plist>
