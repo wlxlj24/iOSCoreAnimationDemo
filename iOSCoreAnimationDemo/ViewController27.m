@@ -46,6 +46,9 @@
 		NSString *text = @"Lorem ipsum dolor sit amet, consectetur adipiscing \\ elit. Quisque massa arcu, eleifend vel varius in, facilisis pulvinar \\ leo. Nunc quis nunc at mauris pharetra condimentum ut ac neque. Nunc elementum, libero ut porttitor dictum, diam odio congue lacus, vel \\ fringilla sapien diam at purus. Etiam suscipit pretium nunc sit amet \\ lobortis";
 		textLayer.string = text;
 		
+		//retina渲染
+		textLayer.contentsScale = [UIScreen mainScreen].scale;
+		
 		var;
 	});
 	
