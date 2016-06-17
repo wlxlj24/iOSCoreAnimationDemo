@@ -56,6 +56,7 @@
 		96A7B4531D139B6400C9FC62 /* ViewController27.m in Sources */ = {isa = PBXBuildFile; fileRef = 96A7B4521D139B6400C9FC62 /* ViewController27.m */; };
 		96A7B4561D13A27700C9FC62 /* ViewController28.m in Sources */ = {isa = PBXBuildFile; fileRef = 96A7B4551D13A27700C9FC62 /* ViewController28.m */; };
 		96A7B4591D13A62B00C9FC62 /* ViewController29.m in Sources */ = {isa = PBXBuildFile; fileRef = 96A7B4581D13A62B00C9FC62 /* ViewController29.m */; };
+		96A7B45C1D13AAC200C9FC62 /* LayerLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 96A7B45B1D13AAC200C9FC62 /* LayerLabel.m */; };
 		96C1F17E1D10EF4200F5951C /* ViewController25.m in Sources */ = {isa = PBXBuildFile; fileRef = 96C1F17D1D10EF4200F5951C /* ViewController25.m */; };
 /* End PBXBuildFile section */
 
@@ -178,6 +179,8 @@
 		96A7B4551D13A27700C9FC62 /* ViewController28.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController28.m; sourceTree = "<group>"; };
 		96A7B4571D13A62B00C9FC62 /* ViewController29.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController29.h; sourceTree = "<group>"; };
 		96A7B4581D13A62B00C9FC62 /* ViewController29.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController29.m; sourceTree = "<group>"; };
+		96A7B45A1D13AAC200C9FC62 /* LayerLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayerLabel.h; sourceTree = "<group>"; };
+		96A7B45B1D13AAC200C9FC62 /* LayerLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LayerLabel.m; sourceTree = "<group>"; };
 		96C1F17C1D10EF4200F5951C /* ViewController25.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController25.h; sourceTree = "<group>"; };
 		96C1F17D1D10EF4200F5951C /* ViewController25.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController25.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -416,6 +419,8 @@
 				96A7B4551D13A27700C9FC62 /* ViewController28.m */,
 				96A7B4571D13A62B00C9FC62 /* ViewController29.h */,
 				96A7B4581D13A62B00C9FC62 /* ViewController29.m */,
+				96A7B45A1D13AAC200C9FC62 /* LayerLabel.h */,
+				96A7B45B1D13AAC200C9FC62 /* LayerLabel.m */,
 			);
 			name = "Chapter06 专用图层";
 			sourceTree = "<group>";
@@ -590,6 +595,7 @@
 				96A7B4501D1395D400C9FC62 /* ViewController26.m in Sources */,
 				968EA4851D01242D00C4C35D /* ViewController08.m in Sources */,
 				968EA4811D0118C600C4C35D /* ViewController07.m in Sources */,
+				96A7B45C1D13AAC200C9FC62 /* LayerLabel.m in Sources */,
 				96C1F17E1D10EF4200F5951C /* ViewController25.m in Sources */,
 				9625ED3E1CFE874C00F10793 /* MASConstraint.m in Sources */,
 				9625ED401CFE874C00F10793 /* MASLayoutConstraint.m in Sources */,
