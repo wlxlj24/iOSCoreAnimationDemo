@@ -35,6 +35,7 @@
 		9625ED461CFE874C00F10793 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9625ED3B1CFE874C00F10793 /* ViewController+MASAdditions.m */; };
 		9625ED4C1CFEA92800F10793 /* ViewController03.m in Sources */ = {isa = PBXBuildFile; fileRef = 9625ED4B1CFEA92800F10793 /* ViewController03.m */; };
 		9637CDF51D17D5CC004FF376 /* ViewController31.m in Sources */ = {isa = PBXBuildFile; fileRef = 9637CDF41D17D5CC004FF376 /* ViewController31.m */; };
+		9637CDF81D17DA58004FF376 /* ViewController32.m in Sources */ = {isa = PBXBuildFile; fileRef = 9637CDF71D17DA58004FF376 /* ViewController32.m */; };
 		96483E4F1D0D3B6B004D258F /* ViewController16.m in Sources */ = {isa = PBXBuildFile; fileRef = 96483E4E1D0D3B6B004D258F /* ViewController16.m */; };
 		96483E971D0D58F7004D258F /* ViewController17.m in Sources */ = {isa = PBXBuildFile; fileRef = 96483E961D0D58F7004D258F /* ViewController17.m */; };
 		96483E9A1D0D5AC2004D258F /* ViewController18.m in Sources */ = {isa = PBXBuildFile; fileRef = 96483E991D0D5AC2004D258F /* ViewController18.m */; };
@@ -138,6 +139,8 @@
 		9625ED4B1CFEA92800F10793 /* ViewController03.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController03.m; sourceTree = "<group>"; };
 		9637CDF31D17D5CC004FF376 /* ViewController31.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController31.h; sourceTree = "<group>"; };
 		9637CDF41D17D5CC004FF376 /* ViewController31.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController31.m; sourceTree = "<group>"; };
+		9637CDF61D17DA58004FF376 /* ViewController32.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController32.h; sourceTree = "<group>"; };
+		9637CDF71D17DA58004FF376 /* ViewController32.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController32.m; sourceTree = "<group>"; };
 		96483E4D1D0D3B6B004D258F /* ViewController16.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController16.h; sourceTree = "<group>"; };
 		96483E4E1D0D3B6B004D258F /* ViewController16.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController16.m; sourceTree = "<group>"; };
 		96483E951D0D58F7004D258F /* ViewController17.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController17.h; sourceTree = "<group>"; };
@@ -431,6 +434,8 @@
 				96A7B45E1D13D03600C9FC62 /* ViewController30.m */,
 				9637CDF31D17D5CC004FF376 /* ViewController31.h */,
 				9637CDF41D17D5CC004FF376 /* ViewController31.m */,
+				9637CDF61D17DA58004FF376 /* ViewController32.h */,
+				9637CDF71D17DA58004FF376 /* ViewController32.m */,
 			);
 			path = "Chapter06 专用图层";
 			sourceTree = "<group>";
@@ -569,6 +574,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				96A7B4561D13A27700C9FC62 /* ViewController28.m in Sources */,
+				9637CDF81D17DA58004FF376 /* ViewController32.m in Sources */,
 				96483E4F1D0D3B6B004D258F /* ViewController16.m in Sources */,
 				9625ED441CFE874C00F10793 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
 				9625ED1C1CFE7FDA00F10793 /* ViewController02.m in Sources */,
