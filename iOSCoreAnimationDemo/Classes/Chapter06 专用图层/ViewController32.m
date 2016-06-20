@@ -35,6 +35,9 @@
 								 (__bridge id)[UIColor blueColor].CGColor,
 								 (__bridge id)[UIColor greenColor].CGColor,
 								 ];
+		
+		//在图层中使用locations
+		//An optional array of NSNumber objects defining the location of each gradient stop. Animatable.
 		gradientLayer.locations = @[
 									@0.0,@0.25,@0.5,@1
 									];

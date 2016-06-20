@@ -205,6 +205,12 @@
 			<key>title</key>
 			<string>多重渐变</string>
 		</dict>
+		<dict>
+			<key>viewControllerName</key>
+			<string>ViewController33</string>
+			<key>title</key>
+			<string>用CAReplicatorLayer重复图层</string>
+		</dict>
 	</array>
 </array>
 </plist>
