@@ -187,6 +187,18 @@
 			<key>title</key>
 			<string>使用CATextLayer的UILabel子类：LayerLabel</string>
 		</dict>
+		<dict>
+			<key>viewControllerName</key>
+			<string>ViewController30</string>
+			<key>title</key>
+			<string>用CATransformLayer装配一个3D图层体系</string>
+		</dict>
+		<dict>
+			<key>viewControllerName</key>
+			<string>ViewController31</string>
+			<key>title</key>
+			<string>简单的两种颜色的对角线渐变</string>
+		</dict>
 	</array>
 </array>
 </plist>
